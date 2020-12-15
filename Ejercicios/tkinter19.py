@@ -1,0 +1,15 @@
+#uso de grid 2
+import tkinter
+ventana = tkinter.Tk()
+ventana.geometry("400x400")
+btn1 = tkinter.Button(ventana, text = "Botón 1", width = 10, height = 5)
+btn2 = tkinter.Button(ventana, text = "Botón 2", width = 10, height = 5)
+btn3 = tkinter.Button(ventana, text = "Botón 3", width = 10, height = 5)
+btn4 = tkinter.Button(ventana, text = "Botón 4", width = 10, height = 5)
+btn5 = tkinter.Button(ventana, text = "Botón 5", width = 10, height = 5)
+btn1.grid(row = 0, column = 0)
+btn2.grid(row = 1, column = 1)
+btn3.grid(row = 2, column = 2)
+btn4.grid(row = 2, column = 0)
+btn5.grid(row = 0, column = 2)
+ventana.mainloop()
